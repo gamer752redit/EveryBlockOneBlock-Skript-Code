@@ -1,0 +1,4 @@
+on mine:
+    cancel event  # Verhindert den normalen Drop
+    set {_randomItem} to a random element out of all items  # Zufälliges Item
+    give {_randomItem} to player  # Gib es dem Spieler
